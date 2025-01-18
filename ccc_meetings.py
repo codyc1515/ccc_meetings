@@ -4,9 +4,6 @@ from datetime import datetime
 from icalendar import Calendar, Event
 import re
 
-import requests
-from bs4 import BeautifulSoup
-
 # URL of the website
 url = "https://meetingfinder.ccc.govt.nz"
 
