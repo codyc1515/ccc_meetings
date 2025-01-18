@@ -37,7 +37,7 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add christchurch_meetings.ics
-          git commit -m "Update output file"
+          git commit -m "Update meetings"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
