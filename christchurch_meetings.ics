@@ -89,6 +89,13 @@ DESCRIPTION:Public Meeting: Yes
 LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Ordinary Meeting - Waitai Coastal-Burwood-Linwood Community Board
+DTSTART:20250210T163000
+DTEND:20250210T183000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Ordinary Meeting - Waimāero Fendalton-Waimairi-Harewood Community
   Board
 DTSTART:20250210T163000
@@ -96,13 +103,6 @@ DTEND:20250210T183000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:The Boardroom\, Fendalton Service Centre\, Corner Jeffreys and Cl
  yde Roads
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ordinary Meeting - Waitai Coastal-Burwood-Linwood Community Board
-DTSTART:20250210T163000
-DTEND:20250210T183000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lyttelton Reserves Committee
