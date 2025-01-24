@@ -14,6 +14,13 @@ DESCRIPTION:Public Meeting: Yes
 LOCATION:Pigeon Bay Settlers Hall\, Wharf Road\, Pigeon Bay
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Council Information Session/Workshop
+DTSTART:20250128T104500
+DTEND:20250128T121500
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Finance and Performance Committee [Webcast]
 DTSTART:20250129T093000
 DTEND:20250129T170000
@@ -73,25 +80,10 @@ LOCATION:Little River Boardroom (4238 Christchurch Akaroa Road\, Little Ri
  ver)
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Meeting - Te Pātaka o Rākaihautū Banks Peninsula Community Boar
- d Information Session/Workshop
-DTSTART:20250210T130000
-DTEND:20250210T140000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:Little River Boardroom\, SH75\, Little River
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Information Session/Workshop - Waitai Coastal-Burwood-Linwood Comm
  unity Board
 DTSTART:20250210T150000
 DTEND:20250210T162500
-DESCRIPTION:Public Meeting: Yes
-LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ordinary Meeting - Waitai Coastal-Burwood-Linwood Community Board
-DTSTART:20250210T163000
-DTEND:20250210T183000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
 END:VEVENT
@@ -103,6 +95,13 @@ DTEND:20250210T183000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:The Boardroom\, Fendalton Service Centre\, Corner Jeffreys and Cl
  yde Roads
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ordinary Meeting - Waitai Coastal-Burwood-Linwood Community Board
+DTSTART:20250210T163000
+DTEND:20250210T183000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lyttelton Reserves Committee
