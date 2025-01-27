@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christchurch City Council Meetings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .event {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .event h3 {
+            margin: 0;
+        }
+        .event p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Christchurch Meetings Calendar</h1>
+    <div id="calendar"></div>
+    <small>This website is not affiliated with, endorsed by, or sponsored by Christchurch City Council. All information and opinions expressed are those of the website's authors and contributors and do not necessarily reflect the views, policies, or positions of Christchurch City Council. For official information, please visit the <a href="https://meetingfinder.ccc.govt.nz">Christchurch City Council</a> website.</small>
+    <script>
+        const icsUrl = "https://raw.githubusercontent.com/codyc1515/ccc_meetings/refs/heads/main/christchurch_meetings.ics";
+
+        async function fetchICS(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return await response.text();
+            } catch (error) {
+                console.error("Error fetching ICS file:", error);
+            }
+        }
+
+        function parseICS(icsData) {
+            const events = [];
+            const lines = icsData.split(/\r?\n/);
+            let event = null;
+
+            lines.forEach(line => {
+                if (line.startsWith("BEGIN:VEVENT")) {
+                    event = {};
+                } else if (line.startsWith("END:VEVENT")) {
+                    if (event) events.push(event);
+                    event = null;
+                } else if (event) {
+                    const [key, ...value] = line.split(/:(.+)/);
+                    if (key && value) {
+                        event[key.trim()] = value.join(":").trim();
+                    }
+                }
+            });
+
+            return events;
+        }
+
+        function formatEventDate(icsDate) {
+            const year = icsDate.slice(0, 4);
+            const month = icsDate.slice(4, 6);
+            const day = icsDate.slice(6, 8);
+            const hours = icsDate.slice(9, 11);
+            const minutes = icsDate.slice(11, 13);
+            return new Date(`${year}-${month}-${day}T${hours}:${minutes}:00`);
+        }
+
+        function displayEvents(events) {
+            const calendar = document.getElementById("calendar");
+            calendar.innerHTML = "";
+
+            events.forEach(event => {
+                const eventDiv = document.createElement("div");
+                eventDiv.className = "event";
+
+                const startDate = formatEventDate(event["DTSTART"]);
+                const endDate = formatEventDate(event["DTEND"]);
+
+                eventDiv.innerHTML = `
+                    <h3>${event["SUMMARY"] || "Untitled Event"}</h3>
+                    <p><strong>Start:</strong> ${startDate.toLocaleString()}</p>
+                    <p><strong>End:</strong> ${endDate.toLocaleString()}</p>
+                    <p>${event["DESCRIPTION"] || "No description available."}</p>
+                `;
+
+                calendar.appendChild(eventDiv);
+            });
+        }
+
+        async function loadCalendar() {
+            const icsData = await fetchICS(icsUrl);
+            if (icsData) {
+                const events = parseICS(icsData);
+                displayEvents(events);
+            }
+        }
+
+        loadCalendar();
+    </script>
+</body>
+</html>
