@@ -51,6 +51,13 @@ DESCRIPTION:Public Meeting: Yes
 LOCATION:Committee Room 1\, Level 2\, Civic Offices\, 53 Hereford Street
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Council Information Session/Workshop
+DTSTART:20250204T104500
+DTEND:20250204T130000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Christchurch City Council [Webcast]
 DTSTART:20250205T093000
 DTEND:20250205T170000
@@ -102,12 +109,5 @@ DTSTART:20250210T163000
 DTEND:20250210T183000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Lyttelton Reserves Committee
-DTSTART:20250210T190000
-DTEND:20250210T203000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:Lyttelton Community Boardroom\, 25 Canterbury St\, Lyttelton
 END:VEVENT
 END:VCALENDAR
