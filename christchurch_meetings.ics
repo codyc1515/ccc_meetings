@@ -1,116 +1,112 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
-SUMMARY:Council Information Session/Workshop
-DTSTART:20250204T104500
-DTEND:20250204T130000
+SUMMARY:Pigeon Bay Reserve Committee
+DTSTART:20250303T133000
+DTEND:20250303T150000
 DESCRIPTION:Public Meeting: Yes
-LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
+LOCATION:Pigeon Bay Settlers Hall\, Wharf Road\, Pigeon Bay
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christchurch City Council [Webcast]
-DTSTART:20250205T093000
-DTEND:20250205T170000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cass Bay Reserve Committee
-DTSTART:20250205T193000
-DTEND:20250205T210000
+SUMMARY:Lyttelton Reserves Committee
+DTSTART:20250303T190000
+DTEND:20250303T203000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:Lyttelton Community Boardroom\, 25 Canterbury St\, Lyttelton
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Audit and Risk Management Committee - Meeting
-DTSTART:20250210T093000
-DTEND:20250210T150000
+SUMMARY:Reconvened Christchurch City Council Meeting
+DTSTART:20250304T093000
+DTEND:20250304T123000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ordinary Meeting - Banks Peninsula Community Board
-DTSTART:20250210T100000
-DTEND:20250210T140000
+SUMMARY:Combined Community Boards' Information Session
+DTSTART:20250304T170000
+DTEND:20250304T190000
 DESCRIPTION:Public Meeting: Yes
-LOCATION:Little River Boardroom (4238 Christchurch Akaroa Road\, Little Ri
- ver)
+LOCATION:Audio/Visual via Zoom:    https://us02web.zoom.us/j/89005661864?p
+ wd=l0cYpQaah7gDIDx25iyJbi6vSMYzFd.1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Garden of Tane Reserve Committee
+DTSTART:20250304T173000
+DTEND:20250304T190000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Garden of Tane\, Rue Jolie\, Akaroa
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christchurch City Council [Webcast]
+DTSTART:20250305T093000
+DTEND:20250305T170000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Greater Christchurch Partnership
+DTSTART:20250307T090000
+DTEND:20250307T120000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Council Chambers\, Environment Canterbury\, 200 Tuam Street\, Chr
+ istchurch
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Health\, Safety and Wellbeing Committee
+DTSTART:20250307T093000
+DTEND:20250307T113000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Committee Room 1\, Level 2\, Civic Offices\, 53 Hereford Street
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Le Bons Bay Reserve Committee
+DTSTART:20250308T160000
+DTEND:20250308T173000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Le Bons Bay Domain Hall\, 932 Le Bons Bay Road\, Le Bons Bay
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ordinary Meeting - Banks Peninsula Community Board
+DTSTART:20250310T100000
+DTEND:20250310T150000
+DESCRIPTION:Public Meeting: Yes
+LOCATION:Lyttelton Community Boardroom (25 Canterbury Street\, Lyttelton)
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Information Session/Workshop - Waitai Coastal-Burwood-Linwood Comm
  unity Board
-DTSTART:20250210T150000
-DTEND:20250210T162500
-DESCRIPTION:Public Meeting: Yes
-LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ordinary Meeting - Waitai Coastal-Burwood-Linwood Community Board
-DTSTART:20250210T163000
-DTEND:20250210T183000
+DTSTART:20250310T153000
+DTEND:20250310T162500
 DESCRIPTION:Public Meeting: Yes
 LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ordinary Meeting - Waimāero Fendalton-Waimairi-Harewood Community
   Board
-DTSTART:20250210T163000
-DTEND:20250210T183000
+DTSTART:20250310T163000
+DTEND:20250310T183000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:The Boardroom\, Fendalton Service Centre\, Corner Jeffreys and Cl
  yde Roads
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lyttelton Reserves Committee
-DTSTART:20250210T190000
-DTEND:20250210T203000
+SUMMARY:Ordinary Meeting - Waitai Coastal-Burwood-Linwood Community Board
+DTSTART:20250310T163000
+DTEND:20250310T183000
 DESCRIPTION:Public Meeting: Yes
-LOCATION:Lyttelton Community Boardroom\, 25 Canterbury St\, Lyttelton
+LOCATION:The Boardroom\, Corner Beresford and Union Street\, New Brighton
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Council Information Session/Workshop
-DTSTART:20250211T101500
-DTEND:20250211T133000
+SUMMARY:Hearings Panel - Dog Control Policy and Bylaw
+DTSTART:20250312T093000
+DTEND:20250312T160000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christchurch City Council [Webcast]
-DTSTART:20250212T093000
-DTEND:20250212T170000
+SUMMARY:Hearings Panel - Dog Control Policy and Bylaw
+DTSTART:20250313T093000
+DTEND:20250313T140000
 DESCRIPTION:Public Meeting: Yes
 LOCATION:Council Chambers\, Level 2\, Civic Offices\, 53 Hereford Street
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Waipapa Papanui-Innes-Central Community Board
-DTSTART:20250213T160000
-DTEND:20250213T173000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:The Boardroom\, Papanui Service Centre\, Corner Langdons Road and
-  Restell Street
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ordinary Meeting - Waihoro Spreydon-Cashmere-Heathcote Community B
- oard
-DTSTART:20250213T160000
-DTEND:20250213T190000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:Linwood Boardroom\, 180 Smith Street - Gate B\, Linwood
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Waipuna Halswell-Hornby-Riccarton Community Board
-DTSTART:20250213T163000
-DTEND:20250213T183000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:Horoeka Room\, Rārākau: Riccarton Centre\, 199 Clarence Street\
- , Riccarton
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Information Session/Workshop - Waipapa Papanui-Innes-Central Commu
- nity Board
-DTSTART:20250213T170000
-DTEND:20250213T180000
-DESCRIPTION:Public Meeting: Yes
-LOCATION:The Boardroom\, Papanui Service Centre\, Corner Langdons Road and
-  Restell Street
 END:VEVENT
 END:VCALENDAR
